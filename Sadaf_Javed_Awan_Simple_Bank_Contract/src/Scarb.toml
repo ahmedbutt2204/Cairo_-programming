@@ -1,0 +1,9 @@
+[package]
+name = "simple_bank_contract"
+version = "0.1.0"
+edition = "2024_07"
+
+[dependencies]
+starknet = ">=2.6.0"
+
+[[target.starknet-contract]]
