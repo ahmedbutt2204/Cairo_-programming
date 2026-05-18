@@ -1,0 +1,31 @@
+﻿=== ZK Commitment Demo Log ===
+Run Time : 2026-05-17 05:41:00
+================================
+
+--- Demo Output ---
+   Compiling zk_example v0.1.0 (D:\disk D datat\uni\8th sem\block_chain\assi-04\Cairo_-programming\Afsah_Ur_Rehman_Toy_zk_related_Example\Scarb.toml)
+    Finished `dev` profile target(s) in 2 seconds
+   Executing zk_example
+==========================================
+   ZK Commitment & Verification Demo
+==========================================
+
+[INPUT]
+  age   = 25
+  score = 80
+
+[COMMITMENT GENERATED]
+  hash(age) = 1703974484303975850947838405686730269492888917288131882454909053058937709240
+  (The verifier only sees this hash, never the real age)
+
+[VERIFICATION STEPS]
+  Step 1 - Hash Verification : PASS
+  Step 2 - Age Check (>= 18) : PASS
+  Step 3 - Score Check(>= 50): PASS
+
+[FINAL DECISION] --> PASS
+  User is verified: age and score meet requirements.
+
+==========================================
+
+=== End of Log ===
