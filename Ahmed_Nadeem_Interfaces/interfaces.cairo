@@ -5,7 +5,7 @@
 // =====================================================
 //
 // WHAT THIS FILE DEMONSTRATES:
-// How to define an interface using traits in Cairo
+// How to define an interface using traits in Cairo  
 // and how to implement that interface in a smart contract.
 //
 // We are building a simple Counter Contract that anyone
